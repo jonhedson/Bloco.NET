@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30413.136
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EFFluentApiCRUD", "EFFluentApiCRUD\EFFluentApiCRUD.csproj", "{85349D02-CD4F-4A3B-BD6F-88A1BF8D7914}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{85349D02-CD4F-4A3B-BD6F-88A1BF8D7914}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{85349D02-CD4F-4A3B-BD6F-88A1BF8D7914}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{85349D02-CD4F-4A3B-BD6F-88A1BF8D7914}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{85349D02-CD4F-4A3B-BD6F-88A1BF8D7914}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DE7A51F2-FEB0-4367-B983-CB05E527B7FD}
+	EndGlobalSection
+EndGlobal

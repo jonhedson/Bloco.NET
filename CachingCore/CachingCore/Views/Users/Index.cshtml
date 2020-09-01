@@ -1,0 +1,42 @@
+﻿@model CachingCore.Models.User;
+
+@using (Html.BeginForm("Index", "Users", FormMethod.Post))
+{
+    @*@Html.LabelFor(m => m.Name, new { style = "color:red"})
+        <br />*@
+
+    @*@Html.TextBox("Name", "Enter Name", new {style = "color:red"})
+        <br />
+
+        @Html.TextBoxFor(m => m.Name, new { @Value = "Enter Name" })*@
+
+    @*@Html.TextAreaFor(m => m.Name)*@
+
+    @*<b>Want Additional Benefit:</b>
+        <span>Coffee: </span> @Html.CheckBox("Coffee", true)
+        <span>Tea: </span> @Html.CheckBox("Tea", false)
+        <span>Milk: </span> @Html.CheckBox("Milk", false)*@
+
+    <b>Select Tea Type: </b>
+    <br />
+    <span>Tea: </span> @Html.RadioButton("TeaType", "Tea", false)
+    <span> | Coffee: </span> @Html.RadioButton("TeaType", "Coffee", true)
+    <span> | BlackTea: </span> @Html.RadioButton("TeaType", "BlackTea", false)
+    <span> | GreenTea: </span> @Html.RadioButton("TeaType", "GreenTea", false)
+    <br />
+    <hr />
+    <b>Select Hotel: </b>
+    <br />
+    <span>Hotel Grand Plaza: </span> @Html.RadioButton("HotelType", "HotelGrandPlaza", false)
+    <span> | Hotel Lake View: </span> @Html.RadioButton("HotelType", "HotelLakeView", false)
+    <span> | Hotel River Side: </span> @Html.RadioButton("HotelType", "HotelRiverSide", true)
+    <span> | Hotel Mountain View: </span> @Html.RadioButton("HotelType", "MountainView", false)
+
+    <br />
+    <input id="Submit" type="submit" value="submit" />
+}
+
+<hr />
+@ViewBag.Coffee
+@ViewBag.Tea
+@ViewBag.Milk
